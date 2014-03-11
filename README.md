@@ -13,7 +13,7 @@ To begin, fork this repository.
 
 ### 1. Setup
 
-Fork this repository and create a `source` directory. Within the `source` directory, create a new Rails 4 application.
+Fork this repository and create a `source` directory. Within the `source` directory, create a new Rails 4 application. Please use SQLite as the database technology.
 
 ### 2. Scaffold Models
 
@@ -70,5 +70,5 @@ Build a simple view that can be accessed via `/offers`. Clicking on the "Crawl!"
 
 ## Submission
 
-Commit and push code to your forked repository and then send us a pull request. We'll then review your code and get back to you!
+Commit and push code to your forked repository and then send us a pull request with your name in the title. We'll then review your code and get back to you!
 
