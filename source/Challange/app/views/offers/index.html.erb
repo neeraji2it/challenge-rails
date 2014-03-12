@@ -1,0 +1,8 @@
+<%= link_to "Crowl!", offers_path, :method => :post, :class => "btn btn-primary" %> <%= @offers.count %> Offers<br/><br/>
+<%  @offers.each do |offer| %>
+  <div style="border: 1px solid rosybrown; width: auto; height:auto; padding: 15px;">
+    <%= offer.title %> <br/>
+    <%= offer.description %>
+    <%= link_to "Get Deal", "javascript:void(0);", :onclick => "alert('Coming Soon!!')", :class => "btn btn-primary" %>
+  </div><br/>
+<% end %>
